@@ -1,4 +1,7 @@
 node_modules
 dist
 coverage
+src/config
 .env
+app-dev.yaml
+.log

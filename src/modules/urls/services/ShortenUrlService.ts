@@ -1,6 +1,6 @@
 import { injectable, inject } from 'tsyringe';
 
-import IUrlRepository from '@modules/urls/repositories/IUrlRepository';
+import IUrlRepository from '../repositories/IUrlRepository';
 
 @injectable()
 class ShortenUrlService {

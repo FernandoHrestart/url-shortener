@@ -1,5 +1,5 @@
-import { BASE_URL } from '@shared/utils/env';
-import IUrlRepository from '@modules/urls/repositories/IUrlRepository';
+import { BASE_URL } from '../../../../../shared/utils/env';
+import IUrlRepository from '../../../repositories/IUrlRepository';
 import UrlSchema from '../schemas/UrlSchema';
 
 class UrlRepository implements IUrlRepository {

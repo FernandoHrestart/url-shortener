@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import urlRoutes from '@modules/urls/infra/http/routes/urls.routes';
+import urlRoutes from '../../../../modules/urls/infra/http/routes/urls.routes';
 
 const routes = Router();
 

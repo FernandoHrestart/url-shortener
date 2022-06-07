@@ -1,7 +1,7 @@
 import { injectable, inject } from 'tsyringe';
 
-import HttpError from '@shared/errors/HttpError';
-import IUrlRepository from '@modules/urls/repositories/IUrlRepository';
+import HttpError from '../../../shared/errors/HttpError';
+import IUrlRepository from '../repositories/IUrlRepository';
 
 @injectable()
 class FindShortenUrlService {

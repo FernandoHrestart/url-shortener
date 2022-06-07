@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import faker from 'faker';
 
-import HttpError from '@shared/errors/HttpError';
-import FindByShortenUrlService from '@modules/urls/services/FindByShortenUrlService';
+import HttpError from '../../shared/errors/HttpError';
+import FindByShortenUrlService from '../../modules/urls/services/FindByShortenUrlService';
 import FakeUrlRepository from '../fakes/repositories/FakeUrlRepository';
 
 interface IResponse {

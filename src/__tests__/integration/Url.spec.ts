@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import request from 'supertest';
 import faker from 'faker';
 
-import app from '@shared/infra/http/app';
+import app from '../../shared/infra/http/app';
 
 describe('Url module', () => {
   let connection: MongoClient;

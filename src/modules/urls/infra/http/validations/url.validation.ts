@@ -1,5 +1,5 @@
 import { celebrate, Segments, Joi } from 'celebrate';
-import HttpError from '@shared/errors/HttpError';
+import HttpError from '../../../../../shared/errors/HttpError';
 
 export const urlValidation = celebrate({
   [Segments.BODY]: {

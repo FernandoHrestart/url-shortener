@@ -5,12 +5,12 @@ import cors from 'cors';
 import { errors } from 'celebrate';
 import 'express-async-errors';
 
-import HttpError from '@shared/errors/HttpError';
-import routes from '@shared/infra/http/routes';
-import docsFolder from '@config/docs';
+import HttpError from '../../errors/HttpError';
+import routes from './routes';
+import docsFolder from '../../../config/docs';
 
-import '@shared/infra/mongodb';
-import '@shared/containers';
+import '../mongodb';
+import '../../containers';
 
 const app = express();
 

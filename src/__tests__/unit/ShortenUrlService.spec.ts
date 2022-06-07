@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import faker from 'faker';
 
-import ShortenUrlService from '@modules/urls/services/ShortenUrlService';
+import ShortenUrlService from '../../modules/urls/services/ShortenUrlService';
 import FakeUrlRepository from '../fakes/repositories/FakeUrlRepository';
 
 interface IResponse {

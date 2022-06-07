@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 
-import ShortenUrlService from '@modules/urls/services/ShortenUrlService';
-import FindByShortenUrlService from '@modules/urls/services/FindByShortenUrlService';
+import ShortenUrlService from '../../../services/ShortenUrlService';
+import FindByShortenUrlService from '../../../services/FindByShortenUrlService';
 
 class UrlController {
   public async create(request: Request, response: Response): Promise<Response> {
